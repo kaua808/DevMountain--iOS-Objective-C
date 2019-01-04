@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Z38-cV-zmm">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DevMountainMinication_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Where do you want to go on your mincation?" numberOfLines="0" id="SyI-Ff-eo6"/>
+                        <button width="1" alignment="left" title="Hawaii" id="Xvg-kJ-Odk">
+                            <connections>
+                                <segue destination="1xj-IB-02O" kind="push" id="NWb-Ot-gcw"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="HfJ-a5-VTA">
+            <objects>
+                <controller id="1xj-IB-02O">
+                    <items>
+                        <imageView height="100" alignment="left" image="Kalalau" id="NhL-G9-UX9"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="439" y="290"/>
+        </scene>
+        <!--Destination Interface Controller-->
+        <scene sceneID="2tK-yx-K9c">
+            <objects>
+                <controller id="Z38-cV-zmm" customClass="DestinationInterfaceController" customModule="DevMountainMinication_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Ahz-rh-zCZ">
+                            <items>
+                                <tableRow identifier="RollTideRow" id="Oo5-Bu-wgL" customClass="RollTideRow" customModule="DevMountainMinication_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="b3K-iU-MWB">
+                                        <items>
+                                            <label alignment="left" text="Roll Tide" id="Hxw-1L-of8"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="Roll" destination="Hxw-1L-of8" id="ZJW-yj-Rsg"/>
+                                        <outlet property="RollTide" destination="Hxw-1L-of8" id="QPD-Ok-09X"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myMomsTable" destination="Ahz-rh-zCZ" id="EHk-v3-S6k"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="470" y="533"/>
+        </scene>
+    </scenes>
+</document>

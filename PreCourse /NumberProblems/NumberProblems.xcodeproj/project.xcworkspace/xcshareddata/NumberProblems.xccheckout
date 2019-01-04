@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54F532AB-8EFE-4685-8429-823D3E23AA0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NumberProblems</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0123B843811590FBD48639CC01D6AF94D0B58DD3</key>
+		<string>https://github.com/kaua808/NumberProblems.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NumberProblems.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0123B843811590FBD48639CC01D6AF94D0B58DD3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kaua808/NumberProblems.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0123B843811590FBD48639CC01D6AF94D0B58DD3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0123B843811590FBD48639CC01D6AF94D0B58DD3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NumberProblems</string>
+		</dict>
+	</array>
+</dict>
+</plist>

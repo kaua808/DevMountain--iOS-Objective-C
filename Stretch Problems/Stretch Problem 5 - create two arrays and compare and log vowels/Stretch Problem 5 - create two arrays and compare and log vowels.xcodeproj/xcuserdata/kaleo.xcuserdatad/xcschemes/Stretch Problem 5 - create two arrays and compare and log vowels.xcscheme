@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C40BF4B01AF9191D009001BA"
+               BuildableName = "Stretch Problem 5 - create two arrays and compare and log vowels.app"
+               BlueprintName = "Stretch Problem 5 - create two arrays and compare and log vowels"
+               ReferencedContainer = "container:Stretch Problem 5 - create two arrays and compare and log vowels.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C40BF4C91AF9191D009001BA"
+               BuildableName = "Stretch Problem 5 - create two arrays and compare and log vowelsTests.xctest"
+               BlueprintName = "Stretch Problem 5 - create two arrays and compare and log vowelsTests"
+               ReferencedContainer = "container:Stretch Problem 5 - create two arrays and compare and log vowels.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C40BF4C91AF9191D009001BA"
+               BuildableName = "Stretch Problem 5 - create two arrays and compare and log vowelsTests.xctest"
+               BlueprintName = "Stretch Problem 5 - create two arrays and compare and log vowelsTests"
+               ReferencedContainer = "container:Stretch Problem 5 - create two arrays and compare and log vowels.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C40BF4B01AF9191D009001BA"
+            BuildableName = "Stretch Problem 5 - create two arrays and compare and log vowels.app"
+            BlueprintName = "Stretch Problem 5 - create two arrays and compare and log vowels"
+            ReferencedContainer = "container:Stretch Problem 5 - create two arrays and compare and log vowels.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C40BF4B01AF9191D009001BA"
+            BuildableName = "Stretch Problem 5 - create two arrays and compare and log vowels.app"
+            BlueprintName = "Stretch Problem 5 - create two arrays and compare and log vowels"
+            ReferencedContainer = "container:Stretch Problem 5 - create two arrays and compare and log vowels.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C40BF4B01AF9191D009001BA"
+            BuildableName = "Stretch Problem 5 - create two arrays and compare and log vowels.app"
+            BlueprintName = "Stretch Problem 5 - create two arrays and compare and log vowels"
+            ReferencedContainer = "container:Stretch Problem 5 - create two arrays and compare and log vowels.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

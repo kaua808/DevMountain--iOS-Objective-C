@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40BF4B71AF9191D009001BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40BF4B61AF9191D009001BA /* main.m */; };
+		C40BF4BA1AF9191D009001BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40BF4B91AF9191D009001BA /* AppDelegate.m */; };
+		C40BF4BD1AF9191D009001BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40BF4BC1AF9191D009001BA /* ViewController.m */; };
+		C40BF4C01AF9191D009001BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40BF4BE1AF9191D009001BA /* Main.storyboard */; };
+		C40BF4C21AF9191D009001BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40BF4C11AF9191D009001BA /* Images.xcassets */; };
+		C40BF4C51AF9191D009001BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40BF4C31AF9191D009001BA /* LaunchScreen.xib */; };
+		C40BF4D11AF9191D009001BA /* Stretch_Problem_5___create_two_arrays_and_compare_and_log_vowelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40BF4D01AF9191D009001BA /* Stretch_Problem_5___create_two_arrays_and_compare_and_log_vowelsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40BF4CB1AF9191D009001BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40BF4A91AF9191D009001BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40BF4B01AF9191D009001BA;
+			remoteInfo = "Stretch Problem 5 - create two arrays and compare and log vowels";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40BF4B11AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stretch Problem 5 - create two arrays and compare and log vowels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40BF4B51AF9191D009001BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40BF4B61AF9191D009001BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40BF4B81AF9191D009001BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40BF4B91AF9191D009001BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40BF4BB1AF9191D009001BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C40BF4BC1AF9191D009001BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C40BF4BF1AF9191D009001BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40BF4C11AF9191D009001BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C40BF4C41AF9191D009001BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C40BF4CA1AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stretch Problem 5 - create two arrays and compare and log vowelsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40BF4CF1AF9191D009001BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40BF4D01AF9191D009001BA /* Stretch_Problem_5___create_two_arrays_and_compare_and_log_vowelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Stretch_Problem_5___create_two_arrays_and_compare_and_log_vowelsTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40BF4AE1AF9191D009001BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40BF4C71AF9191D009001BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40BF4A81AF9191D009001BA = {
+			isa = PBXGroup;
+			children = (
+				C40BF4B31AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels */,
+				C40BF4CD1AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests */,
+				C40BF4B21AF9191D009001BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40BF4B21AF9191D009001BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40BF4B11AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels.app */,
+				C40BF4CA1AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40BF4B31AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels */ = {
+			isa = PBXGroup;
+			children = (
+				C40BF4B81AF9191D009001BA /* AppDelegate.h */,
+				C40BF4B91AF9191D009001BA /* AppDelegate.m */,
+				C40BF4BB1AF9191D009001BA /* ViewController.h */,
+				C40BF4BC1AF9191D009001BA /* ViewController.m */,
+				C40BF4BE1AF9191D009001BA /* Main.storyboard */,
+				C40BF4C11AF9191D009001BA /* Images.xcassets */,
+				C40BF4C31AF9191D009001BA /* LaunchScreen.xib */,
+				C40BF4B41AF9191D009001BA /* Supporting Files */,
+			);
+			path = "Stretch Problem 5 - create two arrays and compare and log vowels";
+			sourceTree = "<group>";
+		};
+		C40BF4B41AF9191D009001BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40BF4B51AF9191D009001BA /* Info.plist */,
+				C40BF4B61AF9191D009001BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C40BF4CD1AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40BF4D01AF9191D009001BA /* Stretch_Problem_5___create_two_arrays_and_compare_and_log_vowelsTests.m */,
+				C40BF4CE1AF9191D009001BA /* Supporting Files */,
+			);
+			path = "Stretch Problem 5 - create two arrays and compare and log vowelsTests";
+			sourceTree = "<group>";
+		};
+		C40BF4CE1AF9191D009001BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40BF4CF1AF9191D009001BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40BF4B01AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40BF4D41AF9191D009001BA /* Build configuration list for PBXNativeTarget "Stretch Problem 5 - create two arrays and compare and log vowels" */;
+			buildPhases = (
+				C40BF4AD1AF9191D009001BA /* Sources */,
+				C40BF4AE1AF9191D009001BA /* Frameworks */,
+				C40BF4AF1AF9191D009001BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stretch Problem 5 - create two arrays and compare and log vowels";
+			productName = "Stretch Problem 5 - create two arrays and compare and log vowels";
+			productReference = C40BF4B11AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40BF4C91AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40BF4D71AF9191D009001BA /* Build configuration list for PBXNativeTarget "Stretch Problem 5 - create two arrays and compare and log vowelsTests" */;
+			buildPhases = (
+				C40BF4C61AF9191D009001BA /* Sources */,
+				C40BF4C71AF9191D009001BA /* Frameworks */,
+				C40BF4C81AF9191D009001BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40BF4CC1AF9191D009001BA /* PBXTargetDependency */,
+			);
+			name = "Stretch Problem 5 - create two arrays and compare and log vowelsTests";
+			productName = "Stretch Problem 5 - create two arrays and compare and log vowelsTests";
+			productReference = C40BF4CA1AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40BF4A91AF9191D009001BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C40BF4B01AF9191D009001BA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C40BF4C91AF9191D009001BA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C40BF4B01AF9191D009001BA;
+					};
+				};
+			};
+			buildConfigurationList = C40BF4AC1AF9191D009001BA /* Build configuration list for PBXProject "Stretch Problem 5 - create two arrays and compare and log vowels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40BF4A81AF9191D009001BA;
+			productRefGroup = C40BF4B21AF9191D009001BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40BF4B01AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels */,
+				C40BF4C91AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowelsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40BF4AF1AF9191D009001BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40BF4C01AF9191D009001BA /* Main.storyboard in Resources */,
+				C40BF4C51AF9191D009001BA /* LaunchScreen.xib in Resources */,
+				C40BF4C21AF9191D009001BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40BF4C81AF9191D009001BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40BF4AD1AF9191D009001BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40BF4BD1AF9191D009001BA /* ViewController.m in Sources */,
+				C40BF4BA1AF9191D009001BA /* AppDelegate.m in Sources */,
+				C40BF4B71AF9191D009001BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40BF4C61AF9191D009001BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40BF4D11AF9191D009001BA /* Stretch_Problem_5___create_two_arrays_and_compare_and_log_vowelsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40BF4CC1AF9191D009001BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40BF4B01AF9191D009001BA /* Stretch Problem 5 - create two arrays and compare and log vowels */;
+			targetProxy = C40BF4CB1AF9191D009001BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40BF4BE1AF9191D009001BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40BF4BF1AF9191D009001BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40BF4C31AF9191D009001BA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40BF4C41AF9191D009001BA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40BF4D21AF9191D009001BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40BF4D31AF9191D009001BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40BF4D51AF9191D009001BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretch Problem 5 - create two arrays and compare and log vowels/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C40BF4D61AF9191D009001BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretch Problem 5 - create two arrays and compare and log vowels/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C40BF4D81AF9191D009001BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stretch Problem 5 - create two arrays and compare and log vowelsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stretch Problem 5 - create two arrays and compare and log vowels.app/Stretch Problem 5 - create two arrays and compare and log vowels";
+			};
+			name = Debug;
+		};
+		C40BF4D91AF9191D009001BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stretch Problem 5 - create two arrays and compare and log vowelsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stretch Problem 5 - create two arrays and compare and log vowels.app/Stretch Problem 5 - create two arrays and compare and log vowels";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40BF4AC1AF9191D009001BA /* Build configuration list for PBXProject "Stretch Problem 5 - create two arrays and compare and log vowels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40BF4D21AF9191D009001BA /* Debug */,
+				C40BF4D31AF9191D009001BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40BF4D41AF9191D009001BA /* Build configuration list for PBXNativeTarget "Stretch Problem 5 - create two arrays and compare and log vowels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40BF4D51AF9191D009001BA /* Debug */,
+				C40BF4D61AF9191D009001BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40BF4D71AF9191D009001BA /* Build configuration list for PBXNativeTarget "Stretch Problem 5 - create two arrays and compare and log vowelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40BF4D81AF9191D009001BA /* Debug */,
+				C40BF4D91AF9191D009001BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40BF4A91AF9191D009001BA /* Project object */;
+}

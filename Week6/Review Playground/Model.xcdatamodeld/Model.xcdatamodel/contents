@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Car" representedClassName="Car" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mile" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="drivers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Driver" inverseName="cars" inverseEntity="Driver" syncable="YES"/>
+    </entity>
+    <entity name="Driver" representedClassName="Driver" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfAccidents" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cars" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="drivers" inverseEntity="Car" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Driver" positionX="-54" positionY="27" width="128" height="90"/>
+    </elements>
+</model>

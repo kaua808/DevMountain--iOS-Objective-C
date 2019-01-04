@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4421C9D1B0B91140038EA3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4421C9C1B0B91140038EA3D /* main.m */; };
+		C4421CA01B0B91140038EA3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4421C9F1B0B91140038EA3D /* AppDelegate.m */; };
+		C4421CA31B0B91140038EA3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4421CA21B0B91140038EA3D /* ViewController.m */; };
+		C4421CA61B0B91140038EA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4421CA41B0B91140038EA3D /* Main.storyboard */; };
+		C4421CA81B0B91140038EA3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4421CA71B0B91140038EA3D /* Images.xcassets */; };
+		C4421CAB1B0B91140038EA3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4421CA91B0B91140038EA3D /* LaunchScreen.xib */; };
+		C4421CB71B0B91140038EA3D /* Stretch_Problem_10___Euro_Coin_AmountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4421CB61B0B91140038EA3D /* Stretch_Problem_10___Euro_Coin_AmountTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4421CB11B0B91140038EA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4421C8F1B0B91140038EA3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4421C961B0B91140038EA3D;
+			remoteInfo = "Stretch Problem 10 - Euro Coin Amount";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4421C971B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stretch Problem 10 - Euro Coin Amount.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4421C9B1B0B91140038EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4421C9C1B0B91140038EA3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4421C9E1B0B91140038EA3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4421C9F1B0B91140038EA3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4421CA11B0B91140038EA3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4421CA21B0B91140038EA3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4421CA51B0B91140038EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4421CA71B0B91140038EA3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4421CAA1B0B91140038EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C4421CB01B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stretch Problem 10 - Euro Coin AmountTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4421CB51B0B91140038EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4421CB61B0B91140038EA3D /* Stretch_Problem_10___Euro_Coin_AmountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Stretch_Problem_10___Euro_Coin_AmountTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4421C941B0B91140038EA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4421CAD1B0B91140038EA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4421C8E1B0B91140038EA3D = {
+			isa = PBXGroup;
+			children = (
+				C4421C991B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount */,
+				C4421CB31B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests */,
+				C4421C981B0B91140038EA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4421C981B0B91140038EA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4421C971B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount.app */,
+				C4421CB01B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4421C991B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount */ = {
+			isa = PBXGroup;
+			children = (
+				C4421C9E1B0B91140038EA3D /* AppDelegate.h */,
+				C4421C9F1B0B91140038EA3D /* AppDelegate.m */,
+				C4421CA11B0B91140038EA3D /* ViewController.h */,
+				C4421CA21B0B91140038EA3D /* ViewController.m */,
+				C4421CA41B0B91140038EA3D /* Main.storyboard */,
+				C4421CA71B0B91140038EA3D /* Images.xcassets */,
+				C4421CA91B0B91140038EA3D /* LaunchScreen.xib */,
+				C4421C9A1B0B91140038EA3D /* Supporting Files */,
+			);
+			path = "Stretch Problem 10 - Euro Coin Amount";
+			sourceTree = "<group>";
+		};
+		C4421C9A1B0B91140038EA3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4421C9B1B0B91140038EA3D /* Info.plist */,
+				C4421C9C1B0B91140038EA3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4421CB31B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4421CB61B0B91140038EA3D /* Stretch_Problem_10___Euro_Coin_AmountTests.m */,
+				C4421CB41B0B91140038EA3D /* Supporting Files */,
+			);
+			path = "Stretch Problem 10 - Euro Coin AmountTests";
+			sourceTree = "<group>";
+		};
+		C4421CB41B0B91140038EA3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4421CB51B0B91140038EA3D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4421C961B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4421CBA1B0B91140038EA3D /* Build configuration list for PBXNativeTarget "Stretch Problem 10 - Euro Coin Amount" */;
+			buildPhases = (
+				C4421C931B0B91140038EA3D /* Sources */,
+				C4421C941B0B91140038EA3D /* Frameworks */,
+				C4421C951B0B91140038EA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stretch Problem 10 - Euro Coin Amount";
+			productName = "Stretch Problem 10 - Euro Coin Amount";
+			productReference = C4421C971B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4421CAF1B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4421CBD1B0B91140038EA3D /* Build configuration list for PBXNativeTarget "Stretch Problem 10 - Euro Coin AmountTests" */;
+			buildPhases = (
+				C4421CAC1B0B91140038EA3D /* Sources */,
+				C4421CAD1B0B91140038EA3D /* Frameworks */,
+				C4421CAE1B0B91140038EA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4421CB21B0B91140038EA3D /* PBXTargetDependency */,
+			);
+			name = "Stretch Problem 10 - Euro Coin AmountTests";
+			productName = "Stretch Problem 10 - Euro Coin AmountTests";
+			productReference = C4421CB01B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4421C8F1B0B91140038EA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C4421C961B0B91140038EA3D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C4421CAF1B0B91140038EA3D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C4421C961B0B91140038EA3D;
+					};
+				};
+			};
+			buildConfigurationList = C4421C921B0B91140038EA3D /* Build configuration list for PBXProject "Stretch Problem 10 - Euro Coin Amount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4421C8E1B0B91140038EA3D;
+			productRefGroup = C4421C981B0B91140038EA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4421C961B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount */,
+				C4421CAF1B0B91140038EA3D /* Stretch Problem 10 - Euro Coin AmountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4421C951B0B91140038EA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4421CA61B0B91140038EA3D /* Main.storyboard in Resources */,
+				C4421CAB1B0B91140038EA3D /* LaunchScreen.xib in Resources */,
+				C4421CA81B0B91140038EA3D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4421CAE1B0B91140038EA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4421C931B0B91140038EA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4421CA31B0B91140038EA3D /* ViewController.m in Sources */,
+				C4421CA01B0B91140038EA3D /* AppDelegate.m in Sources */,
+				C4421C9D1B0B91140038EA3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4421CAC1B0B91140038EA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4421CB71B0B91140038EA3D /* Stretch_Problem_10___Euro_Coin_AmountTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4421CB21B0B91140038EA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4421C961B0B91140038EA3D /* Stretch Problem 10 - Euro Coin Amount */;
+			targetProxy = C4421CB11B0B91140038EA3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4421CA41B0B91140038EA3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4421CA51B0B91140038EA3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4421CA91B0B91140038EA3D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4421CAA1B0B91140038EA3D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4421CB81B0B91140038EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4421CB91B0B91140038EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4421CBB1B0B91140038EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretch Problem 10 - Euro Coin Amount/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4421CBC1B0B91140038EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stretch Problem 10 - Euro Coin Amount/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4421CBE1B0B91140038EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stretch Problem 10 - Euro Coin AmountTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stretch Problem 10 - Euro Coin Amount.app/Stretch Problem 10 - Euro Coin Amount";
+			};
+			name = Debug;
+		};
+		C4421CBF1B0B91140038EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stretch Problem 10 - Euro Coin AmountTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stretch Problem 10 - Euro Coin Amount.app/Stretch Problem 10 - Euro Coin Amount";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4421C921B0B91140038EA3D /* Build configuration list for PBXProject "Stretch Problem 10 - Euro Coin Amount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4421CB81B0B91140038EA3D /* Debug */,
+				C4421CB91B0B91140038EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4421CBA1B0B91140038EA3D /* Build configuration list for PBXNativeTarget "Stretch Problem 10 - Euro Coin Amount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4421CBB1B0B91140038EA3D /* Debug */,
+				C4421CBC1B0B91140038EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4421CBD1B0B91140038EA3D /* Build configuration list for PBXNativeTarget "Stretch Problem 10 - Euro Coin AmountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4421CBE1B0B91140038EA3D /* Debug */,
+				C4421CBF1B0B91140038EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4421C8F1B0B91140038EA3D /* Project object */;
+}

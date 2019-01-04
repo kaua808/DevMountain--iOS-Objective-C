@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44A64CE1B03BF3D009012E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44A64CD1B03BF3D009012E8 /* main.m */; };
+		C44A64D11B03BF3D009012E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44A64D01B03BF3D009012E8 /* AppDelegate.m */; };
+		C44A64D41B03BF3D009012E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44A64D31B03BF3D009012E8 /* ViewController.m */; };
+		C44A64D71B03BF3D009012E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44A64D51B03BF3D009012E8 /* Main.storyboard */; };
+		C44A64D91B03BF3D009012E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44A64D81B03BF3D009012E8 /* Images.xcassets */; };
+		C44A64DC1B03BF3D009012E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44A64DA1B03BF3D009012E8 /* LaunchScreen.xib */; };
+		C44A64E81B03BF3D009012E8 /* Three_Card_MonteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44A64E71B03BF3D009012E8 /* Three_Card_MonteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44A64E21B03BF3D009012E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44A64C01B03BF3D009012E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44A64C71B03BF3D009012E8;
+			remoteInfo = "Three Card Monte";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C44A64C81B03BF3D009012E8 /* Three Card Monte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Card Monte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44A64CC1B03BF3D009012E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44A64CD1B03BF3D009012E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C44A64CF1B03BF3D009012E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C44A64D01B03BF3D009012E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C44A64D21B03BF3D009012E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C44A64D31B03BF3D009012E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C44A64D61B03BF3D009012E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44A64D81B03BF3D009012E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C44A64DB1B03BF3D009012E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C44A64E11B03BF3D009012E8 /* Three Card MonteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Card MonteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44A64E61B03BF3D009012E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44A64E71B03BF3D009012E8 /* Three_Card_MonteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three_Card_MonteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44A64C51B03BF3D009012E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44A64DE1B03BF3D009012E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44A64BF1B03BF3D009012E8 = {
+			isa = PBXGroup;
+			children = (
+				C44A64CA1B03BF3D009012E8 /* Three Card Monte */,
+				C44A64E41B03BF3D009012E8 /* Three Card MonteTests */,
+				C44A64C91B03BF3D009012E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44A64C91B03BF3D009012E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44A64C81B03BF3D009012E8 /* Three Card Monte.app */,
+				C44A64E11B03BF3D009012E8 /* Three Card MonteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44A64CA1B03BF3D009012E8 /* Three Card Monte */ = {
+			isa = PBXGroup;
+			children = (
+				C44A64CF1B03BF3D009012E8 /* AppDelegate.h */,
+				C44A64D01B03BF3D009012E8 /* AppDelegate.m */,
+				C44A64D21B03BF3D009012E8 /* ViewController.h */,
+				C44A64D31B03BF3D009012E8 /* ViewController.m */,
+				C44A64D51B03BF3D009012E8 /* Main.storyboard */,
+				C44A64D81B03BF3D009012E8 /* Images.xcassets */,
+				C44A64DA1B03BF3D009012E8 /* LaunchScreen.xib */,
+				C44A64CB1B03BF3D009012E8 /* Supporting Files */,
+			);
+			path = "Three Card Monte";
+			sourceTree = "<group>";
+		};
+		C44A64CB1B03BF3D009012E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44A64CC1B03BF3D009012E8 /* Info.plist */,
+				C44A64CD1B03BF3D009012E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44A64E41B03BF3D009012E8 /* Three Card MonteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44A64E71B03BF3D009012E8 /* Three_Card_MonteTests.m */,
+				C44A64E51B03BF3D009012E8 /* Supporting Files */,
+			);
+			path = "Three Card MonteTests";
+			sourceTree = "<group>";
+		};
+		C44A64E51B03BF3D009012E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44A64E61B03BF3D009012E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44A64C71B03BF3D009012E8 /* Three Card Monte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44A64EB1B03BF3D009012E8 /* Build configuration list for PBXNativeTarget "Three Card Monte" */;
+			buildPhases = (
+				C44A64C41B03BF3D009012E8 /* Sources */,
+				C44A64C51B03BF3D009012E8 /* Frameworks */,
+				C44A64C61B03BF3D009012E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Card Monte";
+			productName = "Three Card Monte";
+			productReference = C44A64C81B03BF3D009012E8 /* Three Card Monte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44A64E01B03BF3D009012E8 /* Three Card MonteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44A64EE1B03BF3D009012E8 /* Build configuration list for PBXNativeTarget "Three Card MonteTests" */;
+			buildPhases = (
+				C44A64DD1B03BF3D009012E8 /* Sources */,
+				C44A64DE1B03BF3D009012E8 /* Frameworks */,
+				C44A64DF1B03BF3D009012E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44A64E31B03BF3D009012E8 /* PBXTargetDependency */,
+			);
+			name = "Three Card MonteTests";
+			productName = "Three Card MonteTests";
+			productReference = C44A64E11B03BF3D009012E8 /* Three Card MonteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44A64C01B03BF3D009012E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kaleo Kim";
+				TargetAttributes = {
+					C44A64C71B03BF3D009012E8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C44A64E01B03BF3D009012E8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C44A64C71B03BF3D009012E8;
+					};
+				};
+			};
+			buildConfigurationList = C44A64C31B03BF3D009012E8 /* Build configuration list for PBXProject "Three Card Monte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44A64BF1B03BF3D009012E8;
+			productRefGroup = C44A64C91B03BF3D009012E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44A64C71B03BF3D009012E8 /* Three Card Monte */,
+				C44A64E01B03BF3D009012E8 /* Three Card MonteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44A64C61B03BF3D009012E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44A64D71B03BF3D009012E8 /* Main.storyboard in Resources */,
+				C44A64DC1B03BF3D009012E8 /* LaunchScreen.xib in Resources */,
+				C44A64D91B03BF3D009012E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44A64DF1B03BF3D009012E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44A64C41B03BF3D009012E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44A64D41B03BF3D009012E8 /* ViewController.m in Sources */,
+				C44A64D11B03BF3D009012E8 /* AppDelegate.m in Sources */,
+				C44A64CE1B03BF3D009012E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44A64DD1B03BF3D009012E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44A64E81B03BF3D009012E8 /* Three_Card_MonteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44A64E31B03BF3D009012E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44A64C71B03BF3D009012E8 /* Three Card Monte */;
+			targetProxy = C44A64E21B03BF3D009012E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44A64D51B03BF3D009012E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44A64D61B03BF3D009012E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44A64DA1B03BF3D009012E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44A64DB1B03BF3D009012E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44A64E91B03BF3D009012E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44A64EA1B03BF3D009012E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44A64EC1B03BF3D009012E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three Card Monte/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C44A64ED1B03BF3D009012E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three Card Monte/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C44A64EF1B03BF3D009012E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three Card MonteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Card Monte.app/Three Card Monte";
+			};
+			name = Debug;
+		};
+		C44A64F01B03BF3D009012E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three Card MonteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Card Monte.app/Three Card Monte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44A64C31B03BF3D009012E8 /* Build configuration list for PBXProject "Three Card Monte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44A64E91B03BF3D009012E8 /* Debug */,
+				C44A64EA1B03BF3D009012E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44A64EB1B03BF3D009012E8 /* Build configuration list for PBXNativeTarget "Three Card Monte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44A64EC1B03BF3D009012E8 /* Debug */,
+				C44A64ED1B03BF3D009012E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44A64EE1B03BF3D009012E8 /* Build configuration list for PBXNativeTarget "Three Card MonteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44A64EF1B03BF3D009012E8 /* Debug */,
+				C44A64F01B03BF3D009012E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44A64C01B03BF3D009012E8 /* Project object */;
+}

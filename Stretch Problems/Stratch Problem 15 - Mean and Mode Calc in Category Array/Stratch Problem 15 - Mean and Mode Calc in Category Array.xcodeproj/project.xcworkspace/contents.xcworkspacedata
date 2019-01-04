@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../NSArray+Averages.h">
+   </FileRef>
+   <FileRef
+      location = "group:../NSArray+Averages.m">
+   </FileRef>
+   <FileRef
+      location = "self:Stratch Problem 15 - Mean and Mode Calc in Category Array.xcodeproj">
+   </FileRef>
+</Workspace>

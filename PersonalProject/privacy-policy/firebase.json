@@ -1,0 +1,9 @@
+{
+  "firebase": "game-on-privacy",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
